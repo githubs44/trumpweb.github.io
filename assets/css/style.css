@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+   
+    overflow-x: hidden;
+}
+@font-face {
+    font-family:gilory;
+    src: url(../font/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+    font-family:patrick;
+    src: url(../font/patrick.ttf);
+}
+h4{
+    font-family:gilory;
+}
+p,h6{
+    font-family:patrick;
+}
+
+.header{
+    background-image: url(../images/desktop.png);
+    background-size:cover;
+    background-position: top center;
+    height: 90vw;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1vw;
+    padding: 3vw;
+}
+.links .icns{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.links .icns img{
+    width: 4vw;
+
+}
+.links .bts{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.links .btns img{
+    width: 4vw;
+    display: flex;
+    gap: 1vw;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-left: 4vw;
+}
+.texts h4{
+    color: #fff;
+    font-size: 6vw;
+
+}
+.texts p{
+    color: #fff;
+    font-size: 1.5vw;
+    color: #3d78d9;
+    font-weight: bold;
+    
+}
+.text-2{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 4vw;
+    margin-top: 5vw;
+}
+
+.text-2  h6{
+    font-size: 2vw;
+    color: red;
+
+}
+.text-2  h4{
+    font-size: 3vw;
+    color: #fff;
+
+}
+.scnd{
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.scnd h6{
+    font-size: 2vw;
+    color:#cb3532;
+
+}
+.scnd  h4{
+    font-size: 3vw;
+    color: #fff;
+
+}
+/* ---- */
+.gifs{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+}
+.gifs img{
+    width: 20vw;
+    border: 2px solid #000;
+    border-radius: 1vw;
+}
+.end{
+    margin-top: 28vw;
+    font-size: 1.4vw;
+    margin-left: 9vw;
+    color: #fff;
+    font-family:gilory;
+    
+    
+    
+}
+.angle{
+    display: none;
+}
+/* ---------------------@media (max-width:600px) {------------------- */
+@media (max-width:600px) {
+    
+.header{
+    background-image: url(../images/mbbl.png);
+    background-size:cover;
+    background-position: top center;
+    height: 428vw;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 4vw;
+    padding: 3vw;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 6vw;
+}
+.links .icns{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.links .icns img{
+    width: 8vw;
+
+}
+.links .bts{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.links .bts img{
+    width: 26vw;
+    display: flex;
+    gap: 2vw;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-left: 12vw;
+    
+    
+}
+.texts h4{
+    color: #fff;
+    font-size: 12vw;
+
+}
+.texts p{
+    color: #fff;
+    font-size: 4vw;
+    color: #3d78d9;
+    font-weight: bold;
+    
+}
+.text-2{
+    display: flex;
+    align-items: center;
+    gap: 12vw;
+    margin-left: 12vw;
+    margin-top: 8vw;
+    
+    
+}
+
+.text-2  h6{
+    font-size: 5vw;
+    color: red;
+
+}
+.text-2  h4{
+    font-size: 7vw;
+    color: #fff;
+
+}
+.scnd{
+    margin-left: 12vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5vw;
+}
+.scnd h6{
+    font-size: 5vw;
+    color:#cb3532;
+
+}
+.scnd  h4{
+    font-size: 7vw;
+    color: #fff;
+
+}
+/* ---- */
+.gifs{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 4vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 150vw;
+
+}
+.gifs img{
+    width: 70vw;
+    border: 3px solid #2e4291;
+    border-radius: 1.5vw;
+}
+.end{
+    margin-top: 14vw;
+    font-size: 3vw;
+    margin-left: 0vw;
+    color: #fff;
+    font-family:gilory;
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+    
+    
+    
+}
+.angle{
+    width: 35vw;
+    display: flex;
+    margin: auto;
+    display: block;
+}
+}
